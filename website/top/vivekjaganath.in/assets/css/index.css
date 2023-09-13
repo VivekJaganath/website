@@ -1,0 +1,143 @@
+/* inconsolata-regular - latin */
+@font-face {
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/inconsolata-v31-latin-regular.eot");
+    src: local(""), url("../fonts/inconsolata-v31-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/inconsolata-v31-latin-regular.woff2") format("woff2"), url("../fonts/inconsolata-v31-latin-regular.woff") format("woff"), url("../fonts/inconsolata-v31-latin-regular.ttf") format("truetype"), url("../fonts/inconsolata-v31-latin-regular.svg#Inconsolata") format("svg");
+}
+
+/* inconsolata-600 - latin */
+@font-face {
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/inconsolata-v31-latin-600.eot");
+    src: local(""), url("../fonts/inconsolata-v31-latin-600.eot?#iefix") format("embedded-opentype"), url("../fonts/inconsolata-v31-latin-600.woff2") format("woff2"), url("../fonts/inconsolata-v31-latin-600.woff") format("woff"), url("../fonts/inconsolata-v31-latin-600.ttf") format("truetype"), url("../fonts/inconsolata-v31-latin-600.svg#Inconsolata") format("svg");
+}
+
+body {
+    font-family: 'Inconsolata', monospace;
+    font-size: 13px;
+    line-height: 16px;
+    background-color: #24292d;
+    color: #dedede;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    color: #dedede;
+}
+
+h1 {
+    line-height: 25px;
+    letter-spacing: -1.25px;
+    font-weight: 600;
+}
+
+h2 {
+    font-weight: normal;
+    color: #777777;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li span {
+    color: #777777;
+}
+
+#intro {
+    margin-left: 100px;
+}
+
+#title {
+    margin-top: 30%;
+}
+
+#about-me {
+    width: 60%;
+}
+
+#profile-image {
+    position: absolute;
+    bottom: 0;
+    right: 169px;
+    width: 160px;
+    height: 160px;
+    border-right: 1px solid #dedede;
+}
+
+#profile-details {
+    position: absolute;
+    font-size: 12px;
+    line-height: 12px;
+    right: 0px;
+    bottom: 19px;
+    padding: 12px 12px 5px 12px;
+}
+
+#profile-details th {
+    padding: 0;
+    vertical-align: text-top;
+    text-align: right;
+    padding-right: 7px;
+}
+
+#profile-details th .brands {
+    position: relative;
+    top: 2px;
+    left: 2px;
+    width: 12px;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+}
+
+#profile-details th .address {
+    position: relative;
+    top: 1px;
+    left: 2px;
+}
+
+#profile-details td {
+    vertical-align: baseline;
+}
+
+#profile-details #observable-icon {
+    width: 13px;
+    position: relative;
+    top: 3px;
+    left: 3px;
+}
+
+#profile-details th .fa-linkedin {
+    margin-top: 1px;
+}
+
+@media screen and (max-width: 450px) {
+    h1, h2 {
+        text-align: center;
+    }
+
+    #intro {
+        padding: 25px;
+        margin: 0;
+    }
+
+    #about-me {
+        padding-left: 10%;
+        width: 80%;
+    }
+}
+
+@media screen and (max-height: 670px) and (max-width: 950px) {
+    #intro {
+        display: none;
+    }
+}
+
+/*# sourceMappingURL=index.css.map */

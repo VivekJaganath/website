@@ -1,0 +1,129 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: 'Inconsolata', monospace;
+    font-size: 13px;
+    line-height: 16px;
+    background-color: #24292d;
+    color: #dedede;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    color: #dedede;
+}
+
+h1 {
+    line-height: 25px;
+    letter-spacing: -1.25px;
+    font-weight: 600;
+}
+
+h2 {
+    font-weight: normal;
+    color: #777777;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li span {
+    color: #777777;
+}
+
+#intro {
+    margin-left: 100px;
+}
+
+#title {
+    margin-top: 30%;
+}
+
+#about-me {
+    width: 60%;
+}
+
+#profile-image {
+    position: absolute;
+    bottom: 0;
+    right: 169px;
+    width: 160px;
+    height: 160px;
+    border-right: 1px solid #dedede;
+}
+
+#profile-details {
+    position: absolute;
+    font-size: 12px;
+    line-height: 12px;
+    right: 0px;
+    bottom: 19px;
+    padding: 12px 12px 5px 12px;
+}
+
+#profile-details th {
+    padding: 0;
+    vertical-align: text-top;
+    text-align: right;
+    padding-right: 7px;
+}
+
+#profile-details th .brands {
+    position: relative;
+    top: 2px;
+    left: 2px;
+    width: 12px;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+}
+
+#profile-details th .address {
+    position: relative;
+    top: 1px;
+    left: 2px;
+}
+
+#profile-details td {
+    vertical-align: baseline;
+}
+
+#profile-details #observable-icon {
+    width: 13px;
+    position: relative;
+    top: 3px;
+    left: 3px;
+}
+
+#profile-details th .fa-linkedin {
+    margin-top: 1px;
+}
+
+/* Media query for screens up to 768px width (tablets and mobile devices) */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Switch to column layout */
+        align-items: center;
+    }
+
+    .about-content {
+        width: 100%; /* Full width for mobile */
+    }
+
+    .about-text {
+        text-align: center; /* Center text on mobile */
+    }
+
+    .profile-image {
+        margin-top: 20px; /* Add space between text and image */
+        text-align: center; /* Center the image */
+    }
+}
